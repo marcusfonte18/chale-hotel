@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-    background:#ede9cc url(../img/bg-container.png) top center repeat-x;
+    background: url(../img/bg-container.png) repeat-y top center ;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -136,3 +136,7 @@ ul#navegação a:hover {
     width: 90%;
 }
 
+#rodape {
+    clear: both;
+    text-align: center;
+}
