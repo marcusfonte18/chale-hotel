@@ -1,6 +1,7 @@
 * {
     margin: 0 ;
     padding: 0 ;
+    text-decoration: none;
 }
 
 body {
@@ -124,19 +125,68 @@ ul#navegação a:hover {
 #area-principal {
     float: left;
     width: 50%;
+    background:url(../img/bg-area-principal.png)  repeat-x top left;
+    padding: 15px 0px;
 }
 
 #area-lateral {
     float: right;
     width: 50%;  
+    background:url(../img/bg-area-lateral.png)  repeat-x top left;
+    padding: 20px 0px;
+}
+
+#area-lateral  .conteudo #lista-beneficios li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+
+#area-lateral .conteudo #lista-beneficios li a img {
+    width: 150px;
+    float: left;
+    margin-right: 8px;
+}#area-lateral .conteudo #lista-beneficios li a p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+#area-lateral .conteudo #lista-beneficios li a h3 {
+    font-size: 1.1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../img/ornamento.png) no-repeat center right;
+}
+
+#area-lateral .conteudo #lista-beneficios li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
 }
 
 .conteudo {
-    margin: 0 auto;
-    width: 90%;
-}
+        margin: 0 auto;
+        width: 90%;
+    }
+
+
 
 #rodape {
     clear: both;
     text-align: center;
+    padding: 16px;
+    background: #fff url(../img/bg-rodape.png) repeat-x top ;
+    color: #7d7640;
+}
+
+/*Formatação de textos*/
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
