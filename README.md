@@ -2,7 +2,7 @@
 
 
 
- <video src="https://user-images.githubusercontent.com/65238795/107865410-bc3edd00-6e44-11eb-92f0-d56532f917ca.mp4"></video>
+![chrome-capture](https://user-images.githubusercontent.com/65238795/107980281-bb21c300-6f9e-11eb-9b25-4bd585ff6ec2.gif)
 
 
 
